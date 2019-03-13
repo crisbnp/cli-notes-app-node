@@ -1,10 +1,10 @@
 # cli-notes-app-node
 Learning how to be more familiar with working in node.js environment. A command line app to add, remove, list and read notes
 
-Initially logging process.argv to get input from user through command line and add it to argv (argument vector), an array that stores each argument typed in console.
+Initially logging process.argv to get input from user through command line and add it to argv (argument vector), an array that stores each argument typed in console.Although this is great, we use yargs to better parse our comand line arguments.
 
 In this exercise, I learn to parse our command line arguments using npm module/package called yargs.
-Although this is great, we use yargs to better parse our comand line arguments.
+
 
 Using yargs.command(), I created a list of commands configurations: add, remove, list and read.
 Within this configuration, I listed properties for each command: command name, description, builder which is the argument it will take and handler function.
