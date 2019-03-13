@@ -11,7 +11,7 @@ Within this configuration, I listed properties for each command: command name, d
 
 In notes.js, there are 4 functions that are exported to be used in its respective handler function when command line argument is added.
 
-I also learn to turn convert data in an object to a JSON file:
+I also learn to convert data in an object to a JSON file:
 1. JSON.stringify(data)
 2. using core module (fs), write it to a .json file and pass the data in
 3. To convert this json data, we read the .json file using fs core module which will result in a series of binary data
